@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif; /* Sets font to Arial or sans-serif fallback */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark grey text color */
+}
+
+/* Style the header with a light background and white text */
+header {
+    background: #fcfbfb; /* Light background for the header */
+    color: #fff; /* White text (though not visible with current background) */
+    padding: 10px 20px; /* Space around the header content */
+    display: flex; /* Flexbox for layout control */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Center items vertically */
+}
+
+/* Style the logo image in the header */
+.logo {
+    max-height: 100px; /* Restricts the height of the logo */
+    width: 100px;
+}
+
+/* Main container for product page content */
+.products-page {
+    max-width: 1200px; /* Maximum width for the page content */
+    margin: 20px auto; /* Centers the content horizontally */
+    padding: 20px; /* Space inside the container */
+}
+.products-page h1{
+    text-align: center;
+}
+/* Grid layout for the product cards */
+.products-grid {
+    display: grid; /* Use CSS Grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+}
+
+/* Individual product card styling */
+.product-card {
+    background: #fff; /* White background for each card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    padding: 15px; /* Space inside the card */
+    text-align: center; /* Center the text inside each card */
+}
+
+/* Style for product images inside the cards */
+.product-card img {
+    max-width: 100%; /* Makes the image responsive */
+    border-radius: 10px; /* Matches card’s rounded corners */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Style for product title */
+.product-card h2 {
+    font-size: 1.2em; /* Slightly larger font for the title */
+    margin: 10px 0; /* Space above and below the title */
+}
+
+/* Style for product description */
+.product-card p {
+    color: #666; /* Grey color for the description text */
+    font-size: 0.9em; /* Slightly smaller text  */
+    margin: 10px 0; /* Space above and below the description */
+}
+
+/* Style for product price */
+.price {
+    font-size: 1.2em; /* Larger font for the price */
+    color: #ff4500; /* Bright orange color  */
+    margin: 10px 0; /* Space above and below the price */
+}
+
+/* Style for "Add to Cart" button */
+.add-to-cart {
+    background: #ff4500; /* Bright orange background */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Button padding */
+    border-radius: 5px; /* Rounded button corners */
+    font-size: 0.9em; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s ease; /* Smooth background transition */
+}
+
+/* Hover effect for the "Add to Cart" button */
+.add-to-cart:hover {
+    background: #e03e00; /* Darker orange on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center; /* Centered text */
+    background: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 10px; /* Space inside the footer */
+    margin-top: 20px; /* Space above the footer */
+}
+
+/* Hover effect for product cards */
+.product-card:hover {
+    transform: scale(1.05); /* Slight zoom in effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #d4cfcf; /* Light grey background on hover */
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
