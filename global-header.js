@@ -6,7 +6,7 @@
   <header>
   <nav>
     <div class="logo">
-      <img src="Images/floppydiscs.jpg" alt="Logo"/>
+      <img src="images/floppydiscs.jpg" alt="Logo"/>
     </div>
     <div class="menu-button-container">
       <div class="menu-button">
