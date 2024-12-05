@@ -1,0 +1,230 @@
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    }
+    
+    
+    header {
+        background: #fcfbfb; /* Light background for the header */
+        color: #fff; /* White text (though not visible with current background) */
+        padding: 10px 20px; /* Space around the header content */
+        display: flex; /* Flexbox for layout control */
+        justify-content: space-between; /* Space between logo and nav */
+        align-items: center; /* Center items vertically */
+    }
+    
+    /* Style the logo image in the header */
+    .logo {
+        max-height: 100px; /* Restricts the height of the logo */
+        width: 100px;
+    }
+    
+    nav a:hover {
+        background-color: #d4cfcf; /* Light grey background on hover */
+    }
+    
+    nav a {
+        color: #333;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+    
+    
+    .Contact{
+    min-height: 100vh;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    
+    }
+    
+    
+    .container {
+        max-width: 800px;
+        margin:0 auto ;
+    
+    
+    }
+    
+    
+    .container h2{
+    
+        font-size: 40px;
+        margin-bottom: 20px;
+        color: black;
+    
+    }
+    
+    .contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 30px;
+    
+    }
+    
+    .contact-form h3{
+        font-size: 14px;
+        margin-bottom: 20px;
+        color: black;
+    
+    
+    }
+    
+    .form-group{
+        margin-bottom: 20px;
+    }
+    
+    input, textarea{
+    width:100%;
+    padding: 12px;
+    border-radius: 8px;
+    
+    background-color: white;
+    color: black;
+    
+    }
+    
+    input:focus,
+    textarea:focus{
+        outline: none;
+        box-shadow: 0 0 8px black;
+    }
+    
+    
+    button{
+     display: inline-block ;
+     padding: 12px 24px;
+     background-color: black;
+     color: white;
+     cursor: pointer;
+     transition: 0.3s ease;
+    
+    }
+    
+    button:hover {
+        background-color: #ff4500;
+    }
+    
+    .contact-info{
+        text-align: left;
+       
+        }
+    
+    
+    
+    .contact-info h3{
+        font-size: 14px;
+        margin-bottom: 20px;
+        color:black;
+    }
+    
+    .contact-info p {
+    
+        margin-bottom: 10px;
+        color: black;
+    }
+    
+    .contact-info i{
+     color: #ff4500;
+     margin-right: 20px;
+    
+    
+    }
+    
+    
+    
+    @media screen and  (max-width: 768px) {
+    .container{
+        padding: 20px;
+    }
+    .contact-wrapper {
+         grid-template-columns: 1fr;
+    }
+    }
+    
+    footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 10px;
+        position: relative;
+    
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            font-size: 0.9em;
+            }
+            .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            }
+            .footer-container div {
+            flex: 1;
+            margin: 10px;
+            min-width: 200px;
+            }
+    .contact-info p {
+        color: white;
+    }
+    
+            .contact-info, .quick-links, .social-media {
+                margin-bottom: 20px;}
+                
+    
+                h4 {
+                    margin-bottom: 10px;
+                    color: #ff4500;
+                    }
+                    p, ul {
+                    margin: 0;
+                    line-height: 1.6;
+                    }
+                    ul {
+                    list-style: none;
+                    padding: 0;
+                    }
+                    ul li {
+                    margin-bottom: 5px;
+                    }
+                    ul li a {
+                    text-decoration: none;
+                    color: #fff;
+                    transition: color 0.3s ease;
+                    }
+                    ul li a:hover {
+                    color: #ff4500;
+                    }
+    
+    
+                .social-media a {
+                    margin-right: 10px;
+                    font-size: 1.5em;
+                    text-decoration: none;
+                    color: #fff;
+                    transition: color 0.3s ease;
+                    }
+                    .social-media a:hover {
+                    color: #ff4500;
+                    }
+    
+                    .footer-bottom {
+                        text-align: center;
+                        border-top: 1px solid white;
+                        padding-top: 10px;
+                        }
+                        .fa-brands:hover {
+                        color: #ff4500;
+                        
+                        }
+    
