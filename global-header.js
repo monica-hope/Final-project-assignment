@@ -18,7 +18,7 @@
   </nav>
   <div class="menu-container">
     <ul class="menu">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index(1).html">Home</a></li>
       <li><a href="productpage.html">Product</a></li>
       <li><a href="aboutpage.html">Who We Are</a></li>
       <li><a href="Contact.html">Contact Us</a></li>

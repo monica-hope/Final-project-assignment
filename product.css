@@ -10,7 +10,7 @@ body {
 /* Style the header with a light background and white text */
 header {
     background: #fcfbfb; /* Light background for the header */
-    color: #fff; /* White text (though not visible with current background) */
+    color:cornsilk; /* White text (though not visible with current background) */
     padding: 10px 20px; /* Space around the header content */
     display: flex; /* Flexbox for layout control */
     justify-content: space-between; /* Space between logo and nav */
